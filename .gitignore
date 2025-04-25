@@ -1,0 +1,88 @@
+# Root level files
+.DS_Store
+.env
+*.log
+venv/
+
+# Backend
+Backend/__pycache__/
+Backend/**/__pycache__/
+Backend/**/*.py[cod]
+Backend/**/*$py.class
+Backend/**/*.so
+Backend/.Python
+Backend/venv/
+Backend/env/
+Backend/build/
+Backend/dist/
+Backend/**/*.egg-info/
+Backend/**/.installed.cfg
+Backend/**/*.egg
+
+# Specific ChromaDB directories
+Backend/mental_health_model_artifacts/chroma_db/
+Backend/test_chroma_db/
+Backend/mental_health_model_artifacts/chroma_db/
+Backend/test_chroma_db/
+
+# ChromaDB files (general patterns)
+Backend/**/*.bin
+Backend/**/*.sqlite3
+Backend/**/*.pickle
+
+# EDA and Jupyter Notebooks
+EDA_Model_Development_Notebook/.ipynb_checkpoints
+EDA_Model_Development_Notebook/**/.ipynb_checkpoints/
+EDA_Model_Development_Notebook/**/*.py[cod]
+
+# Frontend
+Frontend/node_modules/
+Frontend/.npm/
+Frontend/.yarn/
+Frontend/dist/
+Frontend/build/
+Frontend/coverage/
+Frontend/.nuxt/
+Frontend/.next/
+Frontend/.vite/
+Frontend/.cache/
+Frontend/.eslintcache
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+*.sublime-project
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Virtual environments
+**/venv/
+**/env/
+**/.env/
+**/.venv/
+**/ENV/
+**/env.bak/
+**/venv.bak/
+
+# Optional: ML model artifacts (uncomment if you want to exclude large model files)
+# Backend/mental_health_model_artifacts/**/*.pkl
+# Backend/**/*.h5
+# Backend/**/*.pt
+# Backend/**/*.pth
