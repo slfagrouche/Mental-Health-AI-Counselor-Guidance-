@@ -1,0 +1,29 @@
+
+# Core dependencies for data processing and ML
+pandas
+numpy
+scikit-learn  # Used for ML models
+joblib
+
+# NLP and sentiment analysis
+nltk
+vaderSentiment
+
+# Dataset downloading
+kagglehub
+
+# Vector database and embeddings
+chromadb
+openai
+langchain
+langchain-openai
+langchain-chroma
+httpx  # Required for API calls
+
+# API and tracing
+fastapi
+uvicorn
+pydantic
+langsmith
+python-dotenv
+lightgbm
