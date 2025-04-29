@@ -4,8 +4,19 @@
 
 **TheraGuide AI** helps mental‑health professionals craft real‑time, context‑aware replies during patient sessions. A FastAPI back‑end predicts an appropriate response style (*Empathetic Listening*, *Advice*, *Question*, *Validation*) and flags potential crises, while a React front‑end provides a streamlined UI. Retrieval‑augmented generation (RAG) powered by ChromaDB and OpenAI embeddings surfaces similar past exchanges, and a direct LLM call offers an additional suggestion.
 
----
 
+## Demo
+
+<div>
+    <a href="https://www.loom.com/share/e5017c328bdd4461a55cee15f6c10eff">
+      <p>TheraGuide-AI --Demo - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/e5017c328bdd4461a55cee15f6c10eff">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e5017c328bdd4461a55cee15f6c10eff-e1a801f7182a7a78-full-play.gif">
+    </a>
+  </div>
+
+  
 ## Core Components
 
 - **Back‑End** `/backend`
@@ -158,5 +169,25 @@ theraguide‑ai/
 
 ---
 
-© 2025 Said Lfagrouche — MIT License
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📬 Contact
+
+Have questions or feedback? Reach out via:
+- GitHub Issues 
+- Email: SaidLfagrouche@gmail.com
+---
+
 
