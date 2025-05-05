@@ -2,7 +2,7 @@ import { SuggestionResponse } from '../types/suggestion';
 
 export async function suggestAPI(context: string): Promise<SuggestionResponse> {
   try {
-    const response = await fetch('/suggest', {
+    const response = await fetch('https://slfagrouche-thera-guide-ai.hf.space/suggest', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -25,7 +25,7 @@ export async function suggestAPI(context: string): Promise<SuggestionResponse> {
     return await response.json();
   } catch (error) {
     if (error instanceof TypeError && error.message.includes('fetch')) {
-      throw new Error('Unable to connect to the server. Please ensure the FastAPI backend server is running at http://127.0.0.1:8000');
+      throw new Error('Unable to connect to the API. Please check your internet connection or try again later.');
     }
     
     if (error instanceof Error) {
